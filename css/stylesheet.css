@@ -212,7 +212,7 @@ a h1.name {
     font-family: "freight-micro-pro", Arial, sans-serif;
     font-weight: 300;
     position: relative;
-    padding: 0 10px;
+    padding: 0 18px;
     display: block;
     z-index: 100;
     transition: 0.5s;
@@ -288,6 +288,7 @@ ul.nav a li.about {
     margin-bottom: 14px;
     font-family: "freight-micro-pro", sans-serif;
     line-height: 40px;
+    font-weight: 400;
     display: block;
     height: 50px;
     text-align: center;
@@ -306,11 +307,14 @@ ul.nav a li.about {
 ul.nav a li.contact:hover {
   border: 2px solid black;
   color: black;
+  font-weight: 600;
 }
 
 ul.nav a li.about:hover {
   border: 2px solid black;
   color: black;
+  font-weight: 600;
+
 }
 
 ul.nav a li.contact::before, ul.nav a li.contact::after {
